@@ -1,54 +1,24 @@
-# React + TypeScript + Vite
+# React Project Template
+starting template for react app.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Includes 
 
-Currently, two official plugins are available:
+1. Build Tool - [Vite](https://vite.dev/)
+1. Type Safety - [TypeScript](https://www.typescriptlang.org/)
+1. UI core - [React](https://react.dev/)
+1. Web DOM renderer - [ReactDOM](https://react.dev/)
+1. Routing - [React Router](https://reactrouter.com/)
+1. Components (UI Library) - [Material UI](https://mui.com/material-ui/)
+1. Data fetching - [React Query/Tanstack Query](https://tanstack.com/query/latest)
+1. Environment Variables- [Vite](https://vite.dev/guide/env-and-mode)
+1. Api client generator - [Orval](https://orval.dev/)
+1. Global State Management - [React Query/Tanstack Query](https://tanstack.com/query/latest)
+1. Form Handling - [React Form Hook](https://react-hook-form.com/)
+1. Validation - [Zod](https://zod.dev/)
+1. Datetime handling - [Day.js](https://day.js.org/)
+1. Icons - [Material Icons](https://mui.com/material-ui/material-icons/)
+1. Internationalization - [react-i18next](https://www.i18next.com/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## Open for suggestions
+feel free to recommend changes.
